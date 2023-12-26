@@ -1,0 +1,20 @@
+/** @format */
+
+@media screen and (max-width: 280px) {
+    .form-container {
+        height: auto;
+        .user-form {
+            padding: 12px;
+
+            h4 {
+                font-size: 1em;
+            }
+            label,
+            input,
+            select,
+            button {
+                font-size: 0.8em;
+            }
+        }
+    }
+}

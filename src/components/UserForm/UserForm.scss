@@ -1,0 +1,38 @@
+/** @format */
+
+.user-form {
+    padding: 20px;
+    box-shadow: 0 2px 7px rgba(140, 140, 140, 0.4);
+    border-radius: 4px;
+    background-color: rgba(250, 250, 250, 0.4);
+    backdrop-filter: blur(8px);
+
+    .user-form__body {
+        display: flex;
+        flex-direction: column;
+        gap: 17px;
+
+        h4 {
+            &::selection {
+                background-color: #0d6efd;
+                color: #fff;
+            }
+            text-align: center;
+        }
+
+        .form-error {
+            color: #dc3545;
+            font-size: 0.84em;
+            background-color: #fff;
+            border-radius: 50px;
+            position: relative;
+            top: 2px;
+            border: 1px solid #dc3545;
+            padding: 0 12px 2px 12px;
+        }
+    }
+}
+.form-submit {
+    width: 100%;
+    margin-top: 20px;
+}
